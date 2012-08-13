@@ -18,6 +18,7 @@ Group:		Development/Python
 Url:		https://github.com/enthought/casuarius/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	python-cython >= 0.15.1
+BuildRequires:	python-devel
 
 %description
 Casuarius is a Cython wrapper for the Cassowary incremental constraint solver.
