@@ -40,3 +40,10 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot}
 %defattr(-,root,root)
 %doc COPYING.LGPL LICENSE README.rst
 %py_platsitedir/%{module}*
+
+
+%changelog
+* Mon Aug 13 2012 Lev Givon <lev@mandriva.org> 1.0-1
++ Revision: 814682
+- imported package python-casuarius
+
