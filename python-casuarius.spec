@@ -3,7 +3,7 @@
 Summary:	Cython bindings for the Cassowary constraint solver
 Name:		python-%{module}
 Version:	1.1
-Release:	1
+Release:	2
 Source0:	http://pypi.python.org/packages/source/c/%{module}/%{module}-%{version}.tar.gz
 License:	LGPLv2.1
 Group:		Development/Python
